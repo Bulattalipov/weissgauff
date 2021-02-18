@@ -1,3 +1,21 @@
+html,
 body{
-  
+  height: 100%;
+}
+
+body{
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #15181D;
+  @extend %sFProDisplay-400;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }

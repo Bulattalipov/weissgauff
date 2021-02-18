@@ -1,0 +1,166 @@
+@media (max-width: 1100px){
+  .header{
+    &__top-box:nth-child(3){
+      display: none;
+    }
+  }
+  .product{
+    &__items{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 1070px){
+  
+}
+
+@media (max-width: 930px){
+  .header{
+    &__top-box:nth-child(2){
+      display: none;
+    }
+  }
+  .video{
+    height: 500px;
+  }
+  .place{
+    &__content{
+      max-width: 430px;
+      padding: 62px 26px;
+    }
+  }
+}
+
+@media (max-width: 890px){
+  .consultation{
+    &__inner{
+      flex-direction: column-reverse;
+    }
+    &__content{
+      width: 100%;
+      padding: 25px;
+    }
+    &__video{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 850px){
+  .footer{
+    &__inner{
+      flex-wrap: wrap;
+    }
+    &__item-box{
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  .product{
+    &__items{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .place{
+    .map{
+      width: 100%;
+    }
+    &__inner{
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 760px){
+  .header{
+    &__content-title{
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  .footer{
+    &__item-logo{
+      margin-bottom: 30px;
+    }
+  }
+  .place{
+    &__content{
+      padding: 30px 26px;
+    }
+  }
+  .map{
+    height: 400px;
+  }
+}
+
+@media (max-width: 550px){
+  .header{
+    &__top-box:nth-child(4){
+      display: none;
+    }
+    &__content-title{
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+  .video{
+    height: 350px;
+    &__botton-text{
+      width: 100%;
+    }
+    &__botton-link{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .footer{
+    padding: 40px 0;
+  }
+  .product{
+    &__items{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .address__tel{
+    flex-wrap: wrap;
+  }
+  .map {
+    height: 340px;
+  }
+  .consultation{
+    padding: 40px 0 40px;
+    &__video{
+      min-height: 300px;
+    }
+  }
+}
+
+@media (max-width: 400px){
+  .place{
+    &__content{
+      padding: 20px 15px;
+    }
+    &__content-title{
+      font-size: 28px;
+      line-height: 33px;
+      margin-bottom: 28px;
+    }
+    &__content-link{
+      margin-top: 25px;
+    }
+  }
+  .consultation{
+    &__content{
+      padding: 20px 15px;
+    }
+    &__content-title{
+      font-size: 28px;
+      line-height: 33px;
+    }
+    &__content-link{
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+}
